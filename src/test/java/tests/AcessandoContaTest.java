@@ -27,7 +27,6 @@ public class AcessandoContaTest {
 
     @Test
     public void LoginUser() throws InterruptedException {
-
         //Inserindo dados para acessar conta
         WebElement formularioRegister = driver.findElement(By.className("login"));
         formularioRegister.findElement(By.id("username")).sendKeys("akaue@keeping.com");
@@ -44,10 +43,6 @@ public class AcessandoContaTest {
         driver.findElement(By.linkText("Logout")).click();
 
     }
-
-
-
-
 
     @After
     public void tearDown(){
