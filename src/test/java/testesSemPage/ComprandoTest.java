@@ -1,4 +1,4 @@
-package tests;
+package testesSemPage;
 
 import Suporte.Generator;
 import Suporte.Screenshot;
@@ -41,7 +41,7 @@ public class ComprandoTest  {
 
         //Indo para o shop
         driver.findElement(By.linkText("Shop")).click();
-//        driver.findElement(By.xpath("//*[@id=\"page-36\"]/div/div[1]/div/div/a")).click();
+
 
         //Selecionando o livro de android
         driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li[1]/a[1]/h3")).click();
